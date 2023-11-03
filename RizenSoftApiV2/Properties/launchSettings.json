@@ -29,21 +29,21 @@
       },
       "dotnetRunMessages": true
     },
-    "live-profile": {
-      "commandName": "Project",
-      "launchBrowser": true,
-      "launchUrl": "swagger",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Production"
-      },
-      "applicationUrl": "https://rizensoft-azure-api.azurewebsites.net;https://rizensoft-azure-api-apim.azure-api.net"
-    },
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
       "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "live-profile": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://rizensoft-azure-api.azurewebsites.net;https://rizensoft-azure-api-apim.azure-api.net",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production"
       }
     }
   }

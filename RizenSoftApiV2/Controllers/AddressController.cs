@@ -1,11 +1,7 @@
-﻿using System.Data;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using Webapi.Domains;
-using Webapi.Models;
+using RizenSoftApiV2.Domains;
+using RizenSoftApiV2.Models;
 
 namespace RizenSoftApiV2.Controllers
 {

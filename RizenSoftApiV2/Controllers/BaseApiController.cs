@@ -1,10 +1,9 @@
-﻿using System;
-using System.Security.Claims;
+﻿using System.Security.Claims;
 using Microsoft.AspNetCore.Mvc;
 
 namespace RizenSoftApiV2.Controllers
 {
-	public class BaseApiController : ControllerBase
+    public class BaseApiController : ControllerBase
 	{
         protected int UserID => int.Parse(FindClaim(ClaimTypes.NameIdentifier));
 
