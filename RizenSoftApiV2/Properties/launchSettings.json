@@ -41,7 +41,7 @@
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "https://rizensoft-azure-api.azurewebsites.net;https://rizensoft-azure-api-apim.azure-api.net",
+      "applicationUrl": "https://rizensoft-api-apim.azure-api.net",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Production"
       }
